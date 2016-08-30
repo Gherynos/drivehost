@@ -7,8 +7,8 @@ Unfortunately, the service was [deprecated](http://googleappsupdates.blogspot.co
 Getting started
 ---------------
 
-Drive Host relies on [Drive Copy](https://github.com/Gherynos/DriveCopy) to download the files from Google Drive: before running the image, some access tokens need to be generated. 
-In order to do that, download the [latest release](https://pkg.nharyes.net/drivecopy/drivecopy.jar) of Drive Copy and follow the [Setup](https://github.com/Gherynos/DriveCopy/wiki/Setup) steps. 
+Drive Host relies on [Drive Copy](https://github.com/Gherynos/DriveCopy) to download the files from Google Drive: before running the image, some access tokens need to be generated.  
+In order to do that, download the [latest release](https://pkg.nharyes.net/drivecopy/drivecopy.jar) of Drive Copy and follow the [Setup](https://github.com/Gherynos/DriveCopy/wiki/Setup) steps.  
 Once completed the process, a file called `drivecopy.properties` containing the required tokens will be generated.
 
 How to use this image
