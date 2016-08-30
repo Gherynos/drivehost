@@ -1,0 +1,27 @@
+# CACHE REGIONS
+jcs.region.targetsCache=DC
+jcs.region.targetsCache.cacheattributes=org.apache.commons.jcs.engine.CompositeCacheAttributes
+jcs.region.targetsCache.cacheattributes.MaxObjects=1000
+jcs.region.targetsCache.cacheattributes.MemoryCacheName=org.apache.commons.jcs.engine.memory.lru.LRUMemoryCache
+jcs.region.targetsCache.cacheattributes.UseMemoryShrinker=false
+jcs.region.targetsCache.cacheattributes.MaxSpoolPerRun=500
+jcs.region.targetsCache.elementattributes=org.apache.commons.jcs.engine.ElementAttributes
+jcs.region.targetsCache.elementattributes.IsEternal=false
+jcs.region.filesCache=DC
+jcs.region.filesCache.cacheattributes=org.apache.commons.jcs.engine.CompositeCacheAttributes
+jcs.region.filesCache.cacheattributes.MaxObjects=1000
+jcs.region.filesCache.cacheattributes.MemoryCacheName=org.apache.commons.jcs.engine.memory.lru.LRUMemoryCache
+jcs.region.filesCache.cacheattributes.UseMemoryShrinker=false
+jcs.region.filesCache.cacheattributes.MaxSpoolPerRun=500
+jcs.region.filesCache.elementattributes=org.apache.commons.jcs.engine.ElementAttributes
+jcs.region.filesCache.elementattributes.IsEternal=false
+
+# AUXILIARY CACHES
+jcs.auxiliary.DC=org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCacheFactory
+jcs.auxiliary.DC.attributes=org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCacheAttributes
+jcs.auxiliary.DC.attributes.DiskPath=/var/cache/drivehost
+jcs.auxiliary.DC.attributes.MaxPurgatorySize=10000000
+jcs.auxiliary.DC.attributes.MaxKeySize=1000000
+jcs.auxiliary.DC.attributes.MaxRecycleBinSize=5000
+jcs.auxiliary.DC.attributes.OptimizeAtRemoveCount=300000
+jcs.auxiliary.DC.attributes.ShutdownSpoolTimeLimit=60
