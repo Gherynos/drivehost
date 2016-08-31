@@ -15,4 +15,4 @@ RUN mkdir /var/cache/drivehost
 EXPOSE 8080
 
 # run command
-CMD ["java", "-jar", "target/drivehost.jar"]
+CMD ["java", "-jar", "target/drivehost-jar-with-dependencies.jar"]

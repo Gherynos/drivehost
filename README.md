@@ -24,15 +24,15 @@ $ docker build -t drivehost .
 
 Drive Host requires the following variables defined:
 
-| Variable                      | Details                                                                            |
-| ----------------------------- | ---------------------------------------------------------------------------------- |
-| DRIVEHOST_CACHE_ENABLED       | enables/disables the local cache (for speed and reduced API calls to Google Drive) |
-| DRIVEHOST_CACHE_REFRESH_KEY   | the password used to invalidate the cache (see next chapter)                       |
-| DRIVEHOST_ROOT_FOLDER_ID      | the ID of the Google Drive folder to host                                          |
-| DRIVEHOST_CLIENT_ID           | the OAuth 2.0 Client ID (see previous step)                                        |
-| DRIVEHOST_CLIENT_SECRET       | the OAuth 2.0 Client Secret (see previous step)                                    |
-| DRIVEHOST_ACCESS_TOKEN        | the OAuth 2.0 Access Token (see previous step)                                     |
-| DRIVEHOST_REFRESH_TOKEN       | the OAuth 2.0 Refresh Token (see previous step)                                    |
+| Variable                      | Details                                                            |
+| ----------------------------- | ------------------------------------------------------------------ |
+| DRIVEHOST_CACHE_ENABLED       | enables/disables the local cache (for speed and reduced API calls) |
+| DRIVEHOST_CACHE_REFRESH_KEY   | the password used to invalidate the cache (see next chapter)       |
+| DRIVEHOST_ROOT_FOLDER_ID      | the ID of the Google Drive folder to host                          |
+| DRIVEHOST_CLIENT_ID           | the OAuth 2.0 Client ID (see previous step)                        |
+| DRIVEHOST_CLIENT_SECRET       | the OAuth 2.0 Client Secret (see previous step)                    |
+| DRIVEHOST_ACCESS_TOKEN        | the OAuth 2.0 Access Token (see previous step)                     |
+| DRIVEHOST_REFRESH_TOKEN       | the OAuth 2.0 Refresh Token (see previous step)                    |
 
 ### Run the image:
 
@@ -47,7 +47,7 @@ $ docker run -d -p "8080:8080" -e "DRIVEHOST_CACHE_ENABLED=<true/false>" \
   -t drivehost
 ```
 
-and browse to http://localhost:8080 to view the website.
+and browse to _http://localhost:8080_ to view the website.
 
 If no file is specified in the URL, Drive Host looks for `index.html` in the folder and, if not found, will return 403.
 
