@@ -4,6 +4,8 @@ Drive Host
 Once upon a time there was a cool [service](https://support.google.com/drive/answer/2881970?hl=en) maintained by Google that allowed to host a static website with Google Drive.
 Unfortunately, the service was [deprecated](http://googleappsupdates.blogspot.co.uk/2015/08/deprecating-web-hosting-support-in.html) in August 2015, so I decided to create a simplified version of it running on Docker Containers. 
 
+[![](https://images.microbadger.com/badges/version/gherynos/drivehost.svg)](https://microbadger.com/images/gherynos/drivehost "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/gherynos/drivehost.svg)](https://microbadger.com/images/gherynos/drivehost "Get your own image badge on microbadger.com")
+
 Getting started
 ---------------
 
