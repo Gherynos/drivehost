@@ -33,7 +33,7 @@
         <github.repository.url>http://github.com/${github.user}/${github.repository}</github.repository.url>
         <github.connection>scm:git:ssh://git@github.com/${github.user}/${github.repository}</github.connection>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jettyVersion>9.3.9.v20160517</jettyVersion>
+        <jettyVersion>9.3.24.v20180605</jettyVersion>
     </properties>
 
     <scm>
