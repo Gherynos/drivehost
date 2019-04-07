@@ -33,7 +33,7 @@
         <github.repository.url>http://github.com/${github.user}/${github.repository}</github.repository.url>
         <github.connection>scm:git:ssh://git@github.com/${github.user}/${github.repository}</github.connection>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jettyVersion>9.3.24.v20180605</jettyVersion>
+        <jettyVersion>[9.4.12.v20180830,)</jettyVersion>
     </properties>
 
     <scm>
@@ -79,6 +79,11 @@
             <groupId>org.apache.tomee.patch</groupId>
             <artifactId>commons-jcs-core</artifactId>
             <version>2.0-M1</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.activation</groupId>
+            <artifactId>activation</artifactId>
+            <version>1.1.1</version>
         </dependency>
     </dependencies>
 
